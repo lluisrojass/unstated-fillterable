@@ -1,0 +1,11 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "targets": "last 1 version",
+        }],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "transform-class-properties"
+    ]
+}
